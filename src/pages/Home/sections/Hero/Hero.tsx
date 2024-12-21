@@ -40,8 +40,8 @@ const Hero = () => {
                         
                     </Grid>
                     <Grid item xs={12} md={7}>
-                        <Typography color="primary.contrastText" variant="h1" pb={2}> João Oliveira</Typography>
-                        <Typography color="primary.contrastText" variant="h2">FullStack Developer in Development</Typography>
+                        <Typography color="primary.contrastText" variant="h1" pb={2} textAlign="center"> João Oliveira</Typography>
+                        <Typography color="primary.contrastText" variant="h2" textAlign="center">FullStack Developer in Development</Typography>
                         <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
                             <Grid item xs={12} md={4} display="flex" justifyContent="center">
                                 <StyledButton>
