@@ -44,7 +44,7 @@ const Hero = () => {
                         <Typography color="primary.contrastText" variant="h2" textAlign="center">FullStack Developer in Development</Typography>
                         <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
                             <Grid item xs={12} md={4} display="flex" justifyContent="center">
-                                <StyledButton>
+                                <StyledButton onClick={()=> console.log("Download")}>
                                     <DownloadIcon/>
                                     <Typography>
                                         Download CV
@@ -53,7 +53,7 @@ const Hero = () => {
                             </Grid>
 
                             <Grid item xs={12} md={4} display="flex" justifyContent="center">
-                                <StyledButton>
+                                <StyledButton onClick={()=> console.log("Contact Me")}>
                                     <EmailIcon fontSize="small"/>
                                     <Typography>
                                         Contact Me
